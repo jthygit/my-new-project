@@ -2,7 +2,7 @@
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# Using AI in analyzing satellite data
+# Using AI in interpretation of satellite data
 
 Final project for the Building AI course
 
@@ -12,12 +12,13 @@ Remote sensing data has been available since invention of photography and manned
 
 ## Background
 
-Application arae for analyzing and interpretation of remote sensing data is vast. Here we concentrate on the burn scar detection, which is available at Hugging Face as a demo. Here the user can use Prithvi model with own data. Prithvi is a temporal Vision transformer pretrained by the IBM and NASA team on continental US Harmonised Landsat Sentinel 2 (HLS) data for detecting burn scars. A lot of fires rage arcoss different continents e.g. in Canada large areas burn every year - see for example: https://cwfis.cfs.nrcan.gc.ca/interactive-map. I've been involved in GIS for some 25 years now and learning from data from Earth is near to my heart. We've seen increase in fires due to extreme droughts around the globe e.g. in Southwestern United States. Knowing which areas are affected is important for several purposes.    
-
+Application arae for analyzing and interpretation of remote sensing data is vast. Here we concentrate on the burn scar detection, which is available at Hugging Face as a demo. In the demo on Hugging Face platform the user can use Prithvi model with own data. Prithvi is a temporal Vision transformer pretrained by the IBM and NASA team on continental US Harmonised Landsat Sentinel 2 (HLS) data for detecting burn scars. A lot of fires rage arcoss different continents e.g. in Canada large areas burn every year - see for example: https://cwfis.cfs.nrcan.gc.ca/interactive-map OR NASA's FIRMS (Fire Information for Resource Management System). Personal interest comes from GIS (Geographic Information Systems) and my involment in this field. Due to this data from Earth is near to my heart. During recent years we've seen increase in fires due to the extreme droughts around the globe e.g. in Southwestern United States. Knowing which areas are affected is important for example for science. The Prithvi model ins diverse and can be trained to detect different things. Among these are are crop classification and floods from which there are also demos. 
 
 ## How is it used?
 
 Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+
+The end users (govermental officials, researchers or other interested parties) need to provide an HLS geotiff image, including the following channels in reflectance units (e.g. 0-1): Blue, Green, Red, Narrow NIR, SWIR, SWIR 2. You can read more about the Harmonized Landsat Sentinel-2 data from here: https://lpdaac.usgs.gov/data/get-started-data/collection-overview/missions/harmonized-landsat-sentinel-2-hls-overview/. The input for the model is a color composite image in geotiff from channels mentioned previously. Example data in the demo has channels SWIR, NIR and red.        
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
