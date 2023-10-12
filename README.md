@@ -28,8 +28,9 @@ User can get satellite data (in this case HLS) from various sources. Here are tw
 
 The model, Prithvi is a temporal Vision transformer pretrained by the IBM and NASA team on continental US HLS data. The model uses following AI methods or technologies:
 * A self-supervised encoder developed with a ViT architecture
-* Masked AutoEncoder (MAE) learning strategy, with an MSE loss function.
+* Masked AutoEncoder (MAE) learning strategy, with an MSE loss function
 * The model includes spatial attention across multiple patches and also temporal attention for each patch. More technical details can be found
+  
 (Source: https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M).
 
 The model adopts a self-supervised encoder developed with a ViT architecture and Masked AutoEncoder (MAE) learning strategy, with an MSE loss function. The model includes spatial attention across multiple patches and also temporal attention for each patch.
