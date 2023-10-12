@@ -24,7 +24,7 @@ User can get satellite data (in this case HLS) from various sources. Here are tw
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+![Cat](2023-10-06-00_00_2023-10-06-23_59_Sentinel-2_L2A_SWIR.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
