@@ -22,8 +22,7 @@ The end users (govermental officials, researchers or other interested parties) n
 
 User can get satellite data (in this case HLS) from various sources. Here are two examples: NASA's Earthdata (https://www.earthdata.nasa.gov/) and EU's Copernicus Data Space Ecosystem (https://dataspace.copernicus.eu/). Two useful tools under these sevices are the "Worldview" and "Browser". A word of warning... when the size of the geographical area grows. So does the data file size. More technical details about the data can be found behind this link: https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M-burn-scar. Gathering and preprocessing suitable demo data is beyond the scope of this introduction.       
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+Below you can see an example of part of the possible input data. A Sentinel-2 SWIR (Shortwave infrared) image with band B12 (2190 nm), B8A (865 nm) and B4 (665 nm) that would be part of the input color composite (SWIR, Narrow NIR, Red). 
 ![Cat](2023-10-06-00_00_2023-10-06-23_59_Sentinel-2_L2A_SWIR.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
