@@ -28,11 +28,11 @@ User can get satellite data (in this case HLS) from various sources. Here are tw
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The question that first comes to the mind is how well the Prithvi model for detecting burn scars would work e.g. Finland. The model is trained with data from continental US. It might be so that the model needs re-training with data from the boreal area in Finland or Scandinavia. The fires here are not so frequent so availability of data might also be an issue. 
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+As personal level it would be great to find time to gather satellite data from a recent burn area here in Finland and prepare the data for the model and test it raw. The next phase would be re-treining the model with Finnish (Scandinavian) data and see the difference in perfomance if any. In the bigger picture the use of AI methods with satellite data is still at it's early phases. It will probabaly bring a lot of added value alone in the amount processed data volume and time saved.  
 
 
 ## Acknowledgments
