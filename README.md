@@ -20,7 +20,7 @@ Describe the process of using the solution. In what kind situations is the solut
 
 The end users (govermental officials, researchers or other interested parties) need to provide an HLS geotiff image, including the following channels in reflectance units (e.g. 0-1): Blue, Green, Red, Narrow NIR, SWIR, SWIR 2. The input for the model is a color composite image in geotiff from channels mentioned previously. [Demo](https://huggingface.co/spaces/ibm-nasa-geospatial/Prithvi-100M-Burn-scars-demo) includes three test images to demostrate the model. Gathering and preprocessing suitable ("own") demo data is beyond the scope of this introduction.        
 
-Below you can see an example of part of the possible input data for the model. A Sentinel-2 SWIR (Shortwave infrared) image with bands B12 (2190 nm), B8A (865 nm) and B4 (665 nm) that would be part of the input color composite (SWIR, Narrow NIR, Red) image. 
+Below you can see an example of part of the possible input data for the model aquired from Copernicus Data Space Ecosystem. A Sentinel-2 SWIR (Shortwave infrared) image with bands B12 (2190 nm), B8A (865 nm) and B4 (665 nm) that would be part of the input color composite (SWIR, Narrow NIR, Red) image. 
 ![Cat](2023-10-06-00_00_2023-10-06-23_59_Sentinel-2_L2A_SWIR.jpg)
 
 ## Data sources and AI methods
