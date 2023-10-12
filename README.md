@@ -26,7 +26,13 @@ Below you can see an example of part of the possible input data for the model. A
 ## Data sources and AI methods
 User can get satellite data (in this case HLS) from various sources. Here are two examples: NASA's Earthdata (https://www.earthdata.nasa.gov/) and EU's Copernicus Data Space Ecosystem (https://dataspace.copernicus.eu/). Two useful tools under these sevices are the "Worldview" and "Browser". A word of warning... when the size of the geographical area grows. So does the data file size. More technical details about the data requirements for the Prithvi model can be found [here](https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M-burn-scar). More details about the HLS data can be found here: [HLS data](https://www.earthdata.nasa.gov/esds/harmonized-landsat-sentinel-2#:~:text=The%20Harmonized%20Landsat%20Sentinel-2%20%28HLS%29%20project%20is%20an,product%20with%20observations%20every%20two%20to%20three%20days).
 
-The model, Prithvi is a temporal Vision transformer pretrained by the IBM and NASA team on continental US HLS data. More technical details can be found [here](https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M).
+The model, Prithvi is a temporal Vision transformer pretrained by the IBM and NASA team on continental US HLS data. The model uses following AI methods or technologies:
+* A self-supervised encoder developed with a ViT architecture
+* Masked AutoEncoder (MAE) learning strategy, with an MSE loss function.
+* The model includes spatial attention across multiple patches and also temporal attention for each patch. More technical details can be found
+(Source: https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M).
+
+The model adopts a self-supervised encoder developed with a ViT architecture and Masked AutoEncoder (MAE) learning strategy, with an MSE loss function. The model includes spatial attention across multiple patches and also temporal attention for each patch.
 
 ## Challenges
 
