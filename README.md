@@ -26,6 +26,8 @@ Below you can see an example of part of the possible input data for the model. A
 ## Data sources and AI methods
 User can get satellite data (in this case HLS) from various sources. Here are two examples: NASA's Earthdata (https://www.earthdata.nasa.gov/) and EU's Copernicus Data Space Ecosystem (https://dataspace.copernicus.eu/). Two useful tools under these sevices are the "Worldview" and "Browser". A word of warning... when the size of the geographical area grows. So does the data file size. More technical details about the data requirements for the Prithvi model can be found [here](https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M-burn-scar). More details about the HLS data can be found here: [HLS data](https://www.earthdata.nasa.gov/esds/harmonized-landsat-sentinel-2#:~:text=The%20Harmonized%20Landsat%20Sentinel-2%20%28HLS%29%20project%20is%20an,product%20with%20observations%20every%20two%20to%20three%20days).
 
+The model, Prithvi is a temporal Vision transformer pretrained by the IBM and NASA team on continental US HLS data.
+
 ## Challenges
 
 The question that first comes to the mind is how well the Prithvi model for detecting burn scars would work e.g. Finland. The model is trained with data from continental US. It might be so that the model needs re-training with data from the boreal area in Finland or Scandinavia. The fires here are not so frequent so availability of data might also be an issue. 
