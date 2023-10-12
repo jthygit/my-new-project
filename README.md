@@ -32,13 +32,9 @@ The question that first comes to the mind is how well the Prithvi model for dete
 
 ## What next?
 
-As personal level it would be great to find time to gather satellite data from a recent burn area here in Finland and prepare the data for the model and test it raw. The next phase would be re-treining the model with Finnish (Scandinavian) data and see the difference in perfomance if any. In the bigger picture the use of AI methods with satellite data is still at it's early phases. It will probabaly bring a lot of added value alone in the amount processed data volume and time saved.  
+I've been contemplating the use of AI with images related to GIS for some time now. This course opened the possibility to get into it with more understanding and ideas - this assignement particular. In future it would be great to find time to gather satellite data from a recent burn area here in Finland and prepare the data for the model and test it raw. The next phase would be re-treining the model with Finnish (Scandinavian) data and see the difference in perfomance if any. In the bigger picture the use of AI methods with satellite data is still at it's early phases. It will probabaly bring a lot of added value alone in the amount processed data volume and time saved.  
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* The source of inspiration for the topic was the case during the course concerning the UNISEF school mapping
