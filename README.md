@@ -33,8 +33,6 @@ The model, Prithvi is a temporal Vision transformer pretrained by the IBM and NA
   
 (Source: https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M).
 
-The model adopts a self-supervised encoder developed with a ViT architecture and Masked AutoEncoder (MAE) learning strategy, with an MSE loss function. The model includes spatial attention across multiple patches and also temporal attention for each patch.
-
 ## Challenges
 
 The question that first comes to the mind is how well the Prithvi model for detecting burn scars would work e.g. Finland. The model is trained with data from continental US. It might be so that the model needs re-training with data from the boreal area in Finland or Scandinavia. The fires here are not so frequent so availability of data might also be an issue. 
